@@ -1,0 +1,35 @@
+  
+{% extends 'base_layout.html' %}
+{% load static %}
+
+    {% block header %}
+     <div style="margin-top:200px;" class="container index_container">
+        <div class="row">
+
+            <div class="modal-body">
+                    <div class="view-row-headers">
+                        <span class="view-item view-header view-column">ITEM</span>
+                        <span class="view-price view-header view-column">PRICE (Rs.)</span>
+                        <span class="view-quantity view-header view-column">QUANTITY</span>
+                        <span class="view-unit-price view-header view-column">TOTAL PRICE (Rs.)</span>
+                        <span class="view-cancel view-header view-column">CANCEL</span>
+                    </div>
+                    
+                    <div class="view-items">
+                    </div>
+                    <div class="view-total">
+                        <strong class="view-total-title">Total</strong>
+                        <span class="view-total-price">Rs. <span id="totalViewPrice">0</span></span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button style="color: grey;" type="button" class="btn btn-outline-warning"> <a class="view-color" href="{% url 'checkout' %}">Check out</a></button>
+                </div>
+
+        </div>
+
+    </div>
+    <script src="{% static 'assets/js/viewcart.js' %}" async></script>
+    
+    
+{% endblock %}

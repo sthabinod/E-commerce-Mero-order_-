@@ -1,0 +1,122 @@
+/* LOGIN FORM */
+
+<<<<<<< HEAD
+body{
+    background-color: lightgreen;
+}
+body.login {
+    background-color: lightgreen;
+}
+
+.login #header {
+
+    height: auto;
+    padding: 15px 16px;
+    justify-content: center;
+
+=======
+body.login {
+    background: #f8f8f8;
+}
+
+.login #header {
+    height: auto;
+    padding: 15px 16px;
+    justify-content: center;
+>>>>>>> 0daa8cbf248c78913f7fd6c10ed75f09f707fbde
+}
+
+.login #header h1 {
+    font-size: 18px;
+<<<<<<< HEAD
+
+}
+
+.login #header h1 a {
+    color: white;
+}
+
+.login #content {
+    background-color: white;
+=======
+}
+
+.login #header h1 a {
+    color: #fff;
+}
+
+.login #content {
+>>>>>>> 0daa8cbf248c78913f7fd6c10ed75f09f707fbde
+    padding: 20px 20px 0;
+}
+
+.login #container {
+<<<<<<< HEAD
+    background: white;
+    /*border: 1px solid #eaeaea;*/
+=======
+    background: #fff;
+    border: 1px solid #eaeaea;
+>>>>>>> 0daa8cbf248c78913f7fd6c10ed75f09f707fbde
+    border-radius: 4px;
+    overflow: hidden;
+    width: 28em;
+    min-width: 300px;
+    margin: 100px auto;
+}
+
+.login #content-main {
+    width: 100%;
+}
+
+.login .form-row {
+    padding: 4px 0;
+    float: left;
+    width: 100%;
+    border-bottom: none;
+}
+
+.login .form-row label {
+    padding-right: 0.5em;
+    line-height: 2em;
+    font-size: 1em;
+    clear: both;
+    color: #333;
+}
+
+.login .form-row #id_username, .login .form-row #id_password {
+    clear: both;
+    padding: 8px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.login span.help {
+    font-size: 10px;
+    display: block;
+}
+
+.login .submit-row {
+    clear: both;
+    padding: 1em 0 0 9.4em;
+    margin: 0;
+    border: none;
+<<<<<<< HEAD
+    /*background: none;*/
+    text-align: left;
+    background-color: green;
+=======
+    background: none;
+    text-align: left;
+>>>>>>> 0daa8cbf248c78913f7fd6c10ed75f09f707fbde
+}
+
+.login .password-reset-link {
+    text-align: center;
+<<<<<<< HEAD
+    background-color: green;
+=======
+>>>>>>> 0daa8cbf248c78913f7fd6c10ed75f09f707fbde
+}

@@ -1,0 +1,148 @@
+
+.view-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.view-row {
+    display: flex;
+}
+
+.view-row-headers {
+    display: flex;
+}
+
+
+.view-item {
+    width: 30%;
+}
+
+.view-price {
+    width: 10%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.view-quantity {
+    width: 10%;
+}
+
+.view-unit-price{
+    width: 17%;
+    font-size: 1.2em;
+    color: #333;
+    margin-left: 1.5em;   
+}
+
+.view-cancel{
+    width:10%;
+    font-size: 1.2em;
+}
+
+.view-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.view-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.view-quantity {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.view-total{
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.view-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.view-row:last-child .view-column {
+    border: none;
+}
+
+.view-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.view-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.view-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+.view
+{
+    color: #000000;opacity: 0.4;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.img-own {
+ height: 400px;
+ width: auto;
+}
+
+.buttonAddToCart {
+    margin-left: 25%;
+  }
+  .buttonAddToCart button{
+      background-color: limegreen;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+  
+  }
+
+  .addToCart{
+      position: relative;
+      margin-left: 25%;
+      margin-top: 5%;
+      background-color: limegreen;
+      border: none;
+      text-align: center;
+      border-radius: 4px;
+      width: 100px;
+      height: 30px;
+  }

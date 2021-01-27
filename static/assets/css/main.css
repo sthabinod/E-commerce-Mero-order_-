@@ -1,0 +1,279 @@
+.index_container{
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+.cart-button{
+    float:right;
+    color: white;
+}
+
+.cart-letter{
+    color:white;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-row-headers {
+    display: flex;
+}
+
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 10%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 10%;
+}
+
+.cart-unit-price{
+    width: 15%;
+}
+
+.cart-cancel{
+    width:20%
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-quantity {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-total{
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+.cart
+{
+    color: #000000;opacity: 0.4;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.img-own {
+ height: 400px;
+ width: auto;
+}
+
+.cards
+{
+    margin-bottom: 20px;
+}
+
+
+
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: rgb(24, 22, 22);
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+
+
+@media (min-width: 640px) {
+
+    .s003 {
+/*        min-height: 0vh;*/
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        background-color: #333333;
+        background-size: cover;
+        background-position: center center;
+        padding: 5px;
+    }
+
+    .s003 form {
+        width: 100%;
+        max-width: 600px;
+        margin-bottom: 0;
+    }
+
+    .s003 form .inner-form {
+        background: #fff;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -ms-flex-align: center;
+        align-items: center;
+        box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+        border-radius: 3px;
+    }
+
+    .s003 form .inner-form .input-field {
+        height: 40px;
+    }
+
+    .s003 form .inner-form .input-field input {
+        height: 100%;
+        background: transparent;
+        border: 0;
+        display: block;
+        width: 100%;
+        padding: 10px 32px;
+        font-size: 16px;
+        color: #555;
+    }
+
+    .s003 form .inner-form .input-field input.placeholder {
+        color: #888;
+        font-size: 16px;
+    }
+
+
+    .s003 form .inner-form .input-field.second-wrap {
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+    }
+
+    .s003 form .inner-form .input-field.third-wrap {
+        width: 74px;
+    }
+
+    .s003 form .inner-form .input-field.third-wrap .btn-search {
+        height: 100%;
+        width: 100%;
+        white-space: nowrap;
+        color: #fff;
+        border: 0;
+        cursor: pointer;
+        background: #63c76a;
+        transition: all .2s ease-out, color .2s ease-out;
+    }
+
+    .s003 form .inner-form .input-field.third-wrap .btn-search svg {
+        width: 16px;
+    }
+
+
+    .s003 form .inner-form .input-field.third-wrap .btn-search:focus {
+        outline: 0;
+        box-shadow: none;
+    }
+
+    @media screen and (max-width: 992px) {
+        .s003 form .inner-form .input-field {
+            height: 50px;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .s003 form .inner-form {
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+    }
+
+}

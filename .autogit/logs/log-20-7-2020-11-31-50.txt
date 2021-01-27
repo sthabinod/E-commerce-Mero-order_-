@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Thu Aug 20 2020 11:31:50 GMT+0545 (Nepal Time)
+------------------------------------------------------
+
+Modified files:
+* orders/views.py
+* templates/orders/index.html
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

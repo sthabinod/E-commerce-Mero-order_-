@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Wed Sep 16 2020 12:01:22 GMT+0545 (Nepal Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-16-8-2020-11-31-44.txt
+
+
+Deleted files:
+
+
+Renamed files:

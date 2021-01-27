@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Thu Aug 20 2020 22:02:04 GMT+0545 (Nepal Time)
+------------------------------------------------------
+
+Modified files:
+* templates/orders/index.html
+
+
+Created files:
+* .autogit/logs/log-20-7-2020-21-31-54.txt
+
+
+Deleted files:
+
+
+Renamed files:

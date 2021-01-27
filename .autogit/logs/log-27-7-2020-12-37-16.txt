@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Thu Aug 27 2020 12:37:16 GMT+0545 (Nepal Time)
+------------------------------------------------------
+
+Modified files:
+* templates/orders/pages/about_us.html
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

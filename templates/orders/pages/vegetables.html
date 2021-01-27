@@ -1,0 +1,41 @@
+{% extends 'base_layout.html' %}
+
+{% block header %}
+    <div style="margin-top: 200px; margin-bottom: 20px;" class="container index_container">
+        {% if not products %}
+            <div class="row">
+                <div class="col-sm-12">
+                    <center>
+                        <h2>There are no vegetables available at the moment</h2> 
+                        <h4>Please visit our Home page for the list of available items.</h5>  
+                    </center>
+                </div>
+            </div>      
+
+        {% else %}
+        <div class="row">
+            {% for product in products %}
+            <div class="col-lg-3 cards">
+                <div class="card" style="margin-bottom: 10px;">
+                    <img style="object-fit: cover;" class="card-image" height="190" src="{{ product.image.url }}" alt="{{ product.name }}">
+                    <div class="card-body">
+                        <input type="hidden" value={{product.id}} class="card-id">
+                        <h5 class="card-title">{{ product.name }}</h5>
+                        <p class="card-text">{{ product.description }}</p>
+                        <h6 class="card-price">Rs. <span class="card-price-each">{{ product.price }}</span> per kg</h6>              
+                        <div class="buttonAddToCart">
+                            <button id="qButtonMinus" onclick="minus(this)">-</button> 
+                            <input type="text" name="quantity" style="width:30px;" class="value" value=0> 
+                            <button onclick="add(this)" id="qButtonAdd" >+</button>
+                            <button style="width: 100px; margin-left: -0px;" class="addToCart" id="qButtonAdd" >Add To Cart</button>
+                        </div> 
+                    <div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+{% endblock %}

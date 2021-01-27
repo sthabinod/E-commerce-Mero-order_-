@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Sun Aug 16 2020 12:36:14 GMT+0545 (Nepal Time)
+------------------------------------------------------
+
+Modified files:
+* orders/models.py
+* static/assets/js/main.js
+* templates/base_layout.html
+* templates/orders/pages/fruits.html
+
+
+Created files:
+* .autogit/logs/log-14-7-2020-22-5-53.txt
+* orders/migrations/0002_auto_20200816_1138.py
+
+
+Deleted files:
+
+
+Renamed files:

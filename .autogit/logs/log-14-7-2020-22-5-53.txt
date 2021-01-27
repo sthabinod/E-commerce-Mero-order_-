@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Fri Aug 14 2020 22:05:53 GMT+0545 (Nepal Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/autogit.json
+
+
+Deleted files:
+
+
+Renamed files:
